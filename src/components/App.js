@@ -37,6 +37,7 @@ class App extends Component {
       .then(response => response.json())
       .then(data => {
         const time = new Date().toLocaleTimeString();
+        console.log(data);
         this.setState({
           err: false,
           date: time,
@@ -60,6 +61,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+        <h1>Sprawdź pogodę w swoim mieście</h1>
         <Form
           value={this.state.value}
           change={this.handleInputChange}
