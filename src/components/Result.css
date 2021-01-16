@@ -1,0 +1,18 @@
+.result {
+    padding-top: 20px;
+    border-top: 2px solid #a08639;
+    margin-left: 20px;
+}
+
+.result h3,
+.result h4 {
+    font-weight: normal;
+}
+
+.result h4 {
+    margin-left: 20px;
+}
+
+.result em {
+    font-weight: bold;
+}
